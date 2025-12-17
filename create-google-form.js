@@ -36,7 +36,7 @@ function createSentrumVBKSurvey() {
   form.addScaleItem()
     .setTitle('2.1 Hvor godt trives du i Sentrum VBK?')
     .setBounds(1, 5)
-    .setLabels('Svært dårlig', 'Svært bra')
+    .setLabels('Trives svært dårlig', 'Trives svært godt')
     .setRequired(true);
   
   form.addScaleItem()
@@ -46,15 +46,15 @@ function createSentrumVBKSurvey() {
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('2.3 Føler du deg inkludert og har en tydelig plass i laget?')
+    .setTitle('2.3 Jeg føler meg inkludert og har en tydelig plass i laget')
     .setBounds(1, 5)
     .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('2.4 Hvor motivert er du for volleyball akkurat nå?')
+    .setTitle('2.4 Jeg er motivert for volleyball akkurat nå')
     .setBounds(1, 5)
-    .setLabels('Svært lite motivert', 'Svært motivert')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addParagraphTextItem()
@@ -65,13 +65,13 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('3. Trening og utvikling');
   
   form.addScaleItem()
-    .setTitle('3.1 Hvor fornøyd er du med kvaliteten på treningene?')
+    .setTitle('3.1 Jeg er fornøyd med kvaliteten på treningene')
     .setBounds(1, 5)
-    .setLabels('Svært misfornøyd', 'Svært fornøyd')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('3.2 Opplever du at treningene hjelper deg å utvikle deg som spiller?')
+    .setTitle('3.2 Treningene hjelper meg å utvikle meg som spiller')
     .setBounds(1, 5)
     .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
@@ -84,19 +84,19 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('4. Trener');
   
   form.addScaleItem()
-    .setTitle('4.1 Hvor fornøyd er du med trenerens evne til å formidle instruksjoner og strategier?')
-    .setBounds(1, 5)
-    .setLabels('Svært misfornøyd', 'Svært fornøyd')
-    .setRequired(true);
-  
-  form.addScaleItem()
-    .setTitle('4.2 Opplever du at treneren gir gode og tilstrekkelige tilbakemeldinger?')
+    .setTitle('4.1 Treneren formidler instruksjoner og strategier på en god måte')
     .setBounds(1, 5)
     .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('4.3 Opplever du at treneren er rettferdig i valg, spilletid og behandling av spillere?')
+    .setTitle('4.2 Treneren gir gode og tilstrekkelige tilbakemeldinger')
+    .setBounds(1, 5)
+    .setLabels('Helt uenig', 'Helt enig')
+    .setRequired(true);
+  
+  form.addScaleItem()
+    .setTitle('4.3 Treneren er rettferdig i valg, spilletid og behandling av spillere')
     .setBounds(1, 5)
     .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
@@ -109,7 +109,7 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('5. Lagleder');
   
   form.addScaleItem()
-    .setTitle('5.1 Opplever du at laglederen følger opp laget på en god måte?')
+    .setTitle('5.1 Laglederen følger opp laget på en god måte')
     .setBounds(1, 5)
     .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
@@ -122,21 +122,21 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('6. Klubben og styret');
   
   form.addScaleItem()
-    .setTitle('6.1 Hvor godt kjenner du til klubbens verdier og mål?')
+    .setTitle('6.1 Jeg kjenner godt til klubbens verdier og mål')
     .setBounds(1, 5)
-    .setLabels('Kjenner ikke til', 'Kjenner svært godt til')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('6.2 Hvor fornøyd er du med informasjon og kommunikasjon fra styret?')
+    .setTitle('6.2 Jeg er fornøyd med informasjon og kommunikasjon fra styret')
     .setBounds(1, 5)
-    .setLabels('Svært misfornøyd', 'Svært fornøyd')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('6.3 Hvor stor tillit har du til styret og ledelsen?')
+    .setTitle('6.3 Jeg har tillit til styret og ledelsen')
     .setBounds(1, 5)
-    .setLabels('Svært liten tillit', 'Svært stor tillit')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addParagraphTextItem()
@@ -147,15 +147,15 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('7. Økonomi og fasiliteter');
   
   form.addScaleItem()
-    .setTitle('7.1 Hvordan vurderer du treningsavgiften i forhold til tilbudet?')
+    .setTitle('7.1 Treningsavgiften gir god verdi i forhold til tilbudet')
     .setBounds(1, 5)
-    .setLabels('Svært dårlig verdi', 'Svært god verdi')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addScaleItem()
-    .setTitle('7.2 Hvordan vurderer du halltider og fasiliteter?')
+    .setTitle('7.2 Halltider og fasiliteter fungerer godt')
     .setBounds(1, 5)
-    .setLabels('Svært dårlig', 'Svært bra')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addMultipleChoiceItem()
@@ -171,9 +171,9 @@ function createSentrumVBKSurvey() {
   form.addPageBreakItem().setTitle('8. Sosialt');
   
   form.addScaleItem()
-    .setTitle('8.1 Hvor fornøyd er du med klubbens sosiale tilbud?')
+    .setTitle('8.1 Jeg er fornøyd med klubbens sosiale tilbud')
     .setBounds(1, 5)
-    .setLabels('Svært misfornøyd', 'Svært fornøyd')
+    .setLabels('Helt uenig', 'Helt enig')
     .setRequired(true);
   
   form.addParagraphTextItem()
