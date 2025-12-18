@@ -185,7 +185,7 @@ function createSentrumVBKSurvey() {
   
   form.addParagraphTextItem()
     .setTitle('9.1 Hva har vært høydepunktet ditt denne sesongen?')
-    .setRequired(true);
+    .setRequired(false);
   
   form.addParagraphTextItem()
     .setTitle('9.2 Hva har vært mest utfordrende?')
