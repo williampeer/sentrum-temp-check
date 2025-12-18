@@ -11,7 +11,7 @@
  */
 
 function createSentrumVBKSurvey() {
-  var form = FormApp.create('Temperaturmåling – Sentrum VBK (Midtsesongen 2025/26)');
+  var form = FormApp.create('Temperaturmåling – Sentrum VBK (Midtveisvurdering sesongen 2025/26)');
   
   form.setDescription('Takk for at du tar deg tid! Undersøkelsen er anonym og tar ca. 5-10 minutter. Svarene brukes til å forbedre hverdagen i klubben.\n\nSkala:\n1 = Svært dårlig / Helt uenig\n2 = Dårlig / Uenig\n3 = Verken eller\n4 = Bra / Enig\n5 = Svært bra / Helt enig');
   form.setIsQuiz(false);
